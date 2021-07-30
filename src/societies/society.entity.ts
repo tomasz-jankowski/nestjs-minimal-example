@@ -18,5 +18,7 @@ export class Society extends TimeStampedSluggifiedEntity {
   @Column()
   @IsUrl()
   website: string;
-
+  
+  @Column()
+  active: boolean;
 }
