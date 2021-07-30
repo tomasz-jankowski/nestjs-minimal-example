@@ -1,3 +1,3 @@
 export class UpdateSocietyDto {
-  name: string;
+  active: boolean;
 }
